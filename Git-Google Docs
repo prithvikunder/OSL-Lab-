@@ -1,0 +1,16 @@
+What is Git & Github ?
+
+ Git is an example of version control Version control is a system that records changes to a file or set of files and helps us recall specific versions later if needed. E.g. Subversion (SVN), CVS etc It allows you to : • Revert files or the whole project to an earlier state • Compare changes over time • See who modified what? • Control modifications by collaborators with the permission of admin/owners 
+
+Github is a a repository hosting service for Git • While Git is a command line tool, GitHub provides a web-based graphical interface that works on top of GIT. It can also be treated as a social platform to share knowledge and work. • It also provides access control and several collaboration features, such as wikis and basic task management tools.
+
+Important Concepts for Github Users
+ Creating a repo Creating a repository for multiple people to work together .
+Master in a repository This is the final version that is considered ready to use by anybody in the team or outside if repository is public. 
+Creating a Branch • Create a branch in your project, for an environment where you can try out new ideas. • Changes you make on a branch don't affect the master unless pull request is accepted. • Changes committed to branch reflects for you to keep track of different versions 
+Adding Commits • Keeps track of your progress as you work on a branch or master. Creates a transparent history that others can follow to understand what you've done and why. 
+Forking a repository • It creates a copy for you to work on independently without any changes to theirs. Submit a pull request to owner so that the owner can incorporate changes.
+Pull requests • Pull Requests initiates discussion about your commits or changes made to a code. • See exactly what changes would be merged if pull request is accepted. • Use GitHub's @mention system in your Pull Request message to ask for feedback from specific people or teams, or for someone to review your work .
+Issues • Highlight bugs or issues with codes that need rectification. • Issues remain open unless resolved. • Can be filtered, Can be labeled as bug/enhancement/ question/help wanted etc • @mention can be used to notify someone .
+Markdown syntax • Markdown is a way to style text on the web. • Available in descriptions and comments of Issues and Pull Requests. These include @mentions as well as references to SHA-1 hashes, Issues, and Pull Requests.
+ Watch and Star Watch notifies us of all conversations over and above your @mentions, commits, comments on discussion. Star will favorite it but not show on your dashboards like watch
